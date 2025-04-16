@@ -1,12 +1,36 @@
-# React + Vite
+###### ToDo List - Frontend (React) ######
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el frontend de la aplicación de lista de tareas (ToDo List) que implementa las operaciones CRUD (Crear, Leer, Actualizar y Eliminar) de tareas.
 
-Currently, two official plugins are available:
+El frontend está construido con **React**, y se conecta a una API backend que gestiona las tareas utilizando **Entity Framework** y **SQL Server**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###### Requisitos para levantar el front
 
-## Expanding the ESLint configuration
+Asegúrate de tener instalado lo siguiente antes de levantar el proyecto:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Node.js](https://nodejs.org/) (version 14 o superior)
+- [npm](https://www.npmjs.com/) (generalmente instalado junto con Node.js)
+
+## Clonar el proyecto
+
+Para comenzar a trabajar con el proyecto, primero clona el repositorio:
+
+```bash
+git clone https://github.com/crispin94/ToDoAppReact.git
+cd ToDoAppReact
+
+```
+Instala las dependencias necesarias para el proyecto con el siguiente comando:
+ - npm install
+ - npm start
+
+
+ ### NOTA ####
+ { -- Backend -- }
+Este frontend se conecta a una API que debe estar ejecutándose en https://localhost:7071/api/ToDo
+Asegúrate de tener el backend levantado para que el frontend funcione correctamente. 
+Para más detalles sobre cómo levantar el backend, consulta la sección correspondiente en el repositorio del back.
+
+
+
+... cRISPIN ©
